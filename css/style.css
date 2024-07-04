@@ -3087,6 +3087,13 @@ body.dark .aali_tm_settings .cursor li .svg,
   background-color: #fff;
   opacity: 1;
 }
+
+.code-arsenal {
+  font-size: 16px !important;
+  padding-bottom: 2vw !important;
+  margin-top: -0.2vw !important;
+}
+
 @media (max-width: 1400px) {
   body {
     font-size: 16px;
@@ -3095,6 +3102,11 @@ body.dark .aali_tm_settings .cursor li .svg,
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+  }
+  .code-arsenal {
+    font-size: 16px !important;
+    padding-bottom: 2vw !important;
+    margin-top: -0.2vw !important;
   }
 
   .container {
@@ -3404,6 +3416,11 @@ body.dark .aali_tm_settings .cursor li .svg,
   .container {
     padding: 0 20px;
   }
+  .code-arsenal {
+    font-size: 16px !important;
+    padding-bottom: 2vw !important;
+    margin-top: -0.2vw !important;
+  }
   .aali_tm_header {
     display: none;
   }
@@ -3570,6 +3587,13 @@ body.dark .aali_tm_settings .cursor li .svg,
   .aali_tm_copyright {
     padding: 2vw 0vw 4vw;
   }
+
+  .code-arsenal {
+    font-size: 16px !important;
+    padding-bottom: 5vw !important;
+    margin-top: -0.2vw !important;
+  }
+
   .aali_tm_hero .cd-headline {
     font-size: 20px;
   }
