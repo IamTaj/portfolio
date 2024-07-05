@@ -3766,3 +3766,34 @@ body.dark .aali_tm_settings .cursor li .svg,
     font-size: 22px;
   }
 }
+
+
+/*Scrollbar styles*/
+
+::-webkit-scrollbar {
+  width: 10px; /* Added as per requirement scroll should visible*/
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+  width: 1px;
+}
+
+@media (max-width: 640px) {
+  ::-webkit-scrollbar-thumb {
+    opacity: 0.34;
+    width: 0.4vw;
+    border-radius: 2.65625vw;
+    background-color: #8b8a84;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.4vw;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #D9D9D9;
+  border-radius: 6px;
+  width: 5px;
+}
