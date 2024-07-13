@@ -980,12 +980,12 @@ h6 {
   margin-bottom: 0;
 }
 
-.technology{
+.technology {
   width: fit-content;
-                                        display: flex;
-                                        flex-direction: column;
-                                        justify-content: center;
-                                        align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .progress_inner > span {
   margin: 0 0 13px;
@@ -2272,9 +2272,14 @@ h6 {
   color: #33303a;
 }
 
-.svg-technology{
+.svg-technology {
   width: 40px;
   height: 40px;
+}
+.technology-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
 }
 .aali_tm_contact .left ul li span {
   font-family: josefin sans;
@@ -3098,7 +3103,7 @@ body.dark .aali_tm_settings .cursor li .svg,
   body {
     font-size: 16px;
   }
-  .social-handles{
+  .social-handles {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -3187,11 +3192,15 @@ body.dark .aali_tm_settings .cursor li .svg,
     top: 100px;
     bottom: 100px;
   }
-  
-.svg-technology{
-  width: 40px !important;
-  height: 40px !important;
-}
+
+  .svg-technology {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .technology-stack {
+    gap: 5vw !important;
+  }
   .aali_tm_hero .avatar .four {
     width: 285px;
     height: 305px;
@@ -3471,6 +3480,9 @@ body.dark .aali_tm_settings .cursor li .svg,
     flex-direction: column;
     align-items: baseline;
   }
+  .technology-stack {
+    gap: 5vw !important;
+  }
   .aali_tm_skills .left {
     width: 100%;
     padding-right: 0;
@@ -3587,7 +3599,9 @@ body.dark .aali_tm_settings .cursor li .svg,
   .aali_tm_copyright {
     padding: 2vw 0vw 4vw;
   }
-
+  .technology-stack {
+    gap: 5vw !important;
+  }
   .code-arsenal {
     font-size: 16px !important;
     padding-bottom: 5vw !important;
@@ -3612,12 +3626,12 @@ body.dark .aali_tm_settings .cursor li .svg,
   .aali_tm_modalbox .main_details {
     flex-direction: column !important;
   }
-  .aali_tm_modalbox .main_details .textbox{
+  .aali_tm_modalbox .main_details .textbox {
     width: 100%;
     padding-right: 0px;
   }
 
-  .social-handles{
+  .social-handles {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -3746,7 +3760,8 @@ body.dark .aali_tm_settings .cursor li .svg,
     padding-bottom: 0px;
   }
   .aali_tm_modalbox .box_inner {
-    width: 300px;
+    width: 350px;
+    height: 85%;
   }
   .aali_tm_modalbox .close .svg {
     width: 30px;
@@ -3766,7 +3781,6 @@ body.dark .aali_tm_settings .cursor li .svg,
     font-size: 22px;
   }
 }
-
 
 /*Scrollbar styles*/
 
@@ -3793,7 +3807,7 @@ body.dark .aali_tm_settings .cursor li .svg,
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   border-radius: 6px;
   width: 5px;
 }
