@@ -3099,6 +3099,10 @@ body.dark .aali_tm_settings .cursor li .svg,
   margin-top: -0.2vw !important;
 }
 
+.project-details-mobile-view {
+  display: none !important;
+}
+
 @media (max-width: 1400px) {
   body {
     font-size: 16px;
@@ -3591,6 +3595,9 @@ body.dark .aali_tm_settings .cursor li .svg,
   .aali_tm_modalbox .box_inner {
     width: 500px;
   }
+  .project-details-mobile-view {
+    display: none !important;
+  }
 }
 @media (max-width: 768px) {
   .aali_tm_hero .content .name {
@@ -3779,6 +3786,9 @@ body.dark .aali_tm_settings .cursor li .svg,
   }
   .aali_tm_modalbox .service_popup_informations .main_title h3 {
     font-size: 22px;
+  }
+  .project-details-mobile-view {
+    display: block !important;
   }
 }
 
