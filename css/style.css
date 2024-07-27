@@ -2280,8 +2280,9 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   gap: 2vw;
-}
+  width: 100% !important;
 
+}
 
 .aali_tm_contact .left ul li span {
   font-family: josefin sans;
@@ -3206,7 +3207,7 @@ body.dark .aali_tm_settings .cursor li .svg,
 
   .technology-stack {
     gap: 2vw !important;
-    width: 40vw;
+    width: 40vw !important;
   }
   .aali_tm_hero .avatar .four {
     width: 285px;
@@ -3488,7 +3489,9 @@ body.dark .aali_tm_settings .cursor li .svg,
     align-items: baseline;
   }
   .technology-stack {
-    gap: 0vw !important;
+    gap: 4vw !important;
+    width: 100% !important;
+
   }
 
   .aali_tm_skills .left {
@@ -3612,6 +3615,7 @@ body.dark .aali_tm_settings .cursor li .svg,
   }
   .technology-stack {
     gap: 5vw !important;
+    width: 100% !important;
   }
   .code-arsenal {
     font-size: 16px !important;
